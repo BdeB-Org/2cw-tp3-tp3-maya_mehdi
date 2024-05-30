@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Web Exemple</title>
     <link rel="stylesheet" href="../css/style-index.css">
-    <title>Document</title>
+    <script src="../script.js"></script>
 </head>
 <body>
     <header>
@@ -20,7 +21,16 @@
             </ul>
         </nav>
     </header>
-
+    
+    <div class="carousel">
+        <div class="carousel-images">
+            <img src="../images/A1.jpg" alt="Image 1">
+            <img src="../images/A2.jpg" alt="Image 2">
+            <img src="../images/A3.jpg" alt="Image 3">
+        </div>
+        <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
+        <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
+    </div>
     
 </body>
 </html>
