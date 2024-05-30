@@ -52,7 +52,7 @@ nav ul li a:hover {
 .carousel {
     position: relative;
     width: 100%; 
-    height: 200px; 
+    height: 400px; 
     margin: 20px 0;
     overflow: hidden;
     border-radius: 10px;

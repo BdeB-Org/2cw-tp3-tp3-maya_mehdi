@@ -12,7 +12,7 @@ function showSlide(index) {
         currentIndex = index;
     }
 
-    const newTransform = `translateX(-${currentIndex * 100/ totalSlides}%)`;
+    const newTransform = `translateX(-${currentIndex * 300/ totalSlides}%)`;
     document.querySelector('.carousel-images').style.transform = newTransform;
 }
 
