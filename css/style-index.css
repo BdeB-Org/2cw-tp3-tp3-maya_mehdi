@@ -23,6 +23,7 @@ button {
     text-decoration: none;
     transition: #548db1 0.3s ease; 
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -118,4 +119,16 @@ nav ul li a:hover {
 
 .carousel-button.next {
     right: 10px;
+}
+.publiciteAchat{
+    width: 100vw;
+    margin-top: 5vh;
+    height: 40vh;
+    background-color: #15384e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
