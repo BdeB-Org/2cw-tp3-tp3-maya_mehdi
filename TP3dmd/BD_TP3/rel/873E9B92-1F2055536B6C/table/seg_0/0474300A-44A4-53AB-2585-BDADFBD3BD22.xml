@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0474300A-44A4-53AB-2585-BDADFBD3BD22" name="RAM">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>B03E0620-EF76-08E1-3EE3-39E7E8A189D2</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ram_ID" id="28808B3F-DEED-1C78-072F-E07867378366">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>23EAC4FB-7EA2-4905-4051-239F67AA786B</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ram_Nom" id="98EAAC93-E000-1C62-0F46-7622BA4DCE6B">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>9A89A5DA-5C5F-AE55-043A-2FB4214E4082</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ram_Description" id="C7C120FA-995F-045C-722E-52E389F9D618">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>629EA688-CD6F-311A-DF40-506F71255C4E</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ram_Prix" id="92222E47-F5A0-9A76-2B54-161AB329932B">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>F7DDE46D-8CD5-FC5D-A487-17CD3393B834</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ram_Puissance" id="EC4459B3-2416-2C7B-92E3-72D0E569EF94">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>164BDFED-4459-E29B-BF25-F55B36DF04F5</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ram_NombreGB" id="C9473F39-BC6F-E13E-FC1C-E418AF15459A">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>6658ACC6-AA3D-12E8-81C7-C5EDD27BF4B9</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ram_Type" id="CC53A441-C767-F0F2-46E1-4B6EC01F8053">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>4D22CF3E-8203-0774-8A96-249F927A3388</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A13D91E-84EA-16E4-FEEF-8AB1A70E1389" name="RAM_PK">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>B50AF5EF-381F-6C74-C6B3-0F7B07A3DD91</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28808B3F-DEED-1C78-072F-E07867378366"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

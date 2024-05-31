@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4E01EE02-E702-B058-F13D-5406B1FA0D7E" containerWithKeyObject="65503C17-AE33-4283-00FC-DA92138A20CE" localFKIndex="9145A80C-EC1D-2D1D-11C9-091EAD10B06A" name="Ordinateur_CarteMere_FK">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>151B3E7C-F4D0-BEDE-51F7-B18DA5CB330A</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<referredTableLongName>CarteMere</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2FDB26D6-7E6A-E9FF-F6CC-DB48D6C69E1D</referredTableID>
+<keyObject>08244EFA-D244-A42B-198A-C14BFE4D29FC</keyObject>
+<referredKeyID>08244EFA-D244-A42B-198A-C14BFE4D29FC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cartemere_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

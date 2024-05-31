@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C8BF26D-E05B-155B-579B-A14BDCE3FCD9" name="Ordinateur">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:13:55 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ordinateur_ID" id="612BD1F5-C875-8588-69AB-2E465B106824">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:14:06 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ordinateur_Nom" id="DE21758B-2078-37CF-D661-9F12E14505B8">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:14:18 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ordinateur_Description" id="8DEAC760-A177-E986-904F-6410BBEA3209">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:14:46 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ordinateur_Prix" id="38C7CC41-9824-9C4F-B72F-97206628BFA6">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:14:59 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cartemere_ID" id="D60B8D5A-B5AB-DBD0-8095-0EB1C6C2A96A">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:15:41 UTC</createdTime>
+<generatorID>151B3E7C-F4D0-BEDE-51F7-B18DA5CB330A</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<referedAttribute>5B32B614-C9AC-D164-3FB2-6D36287CAD8A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cartegraphique_ID" id="74D96DE5-54A8-7987-F8A2-1C9123979DF9">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:16:35 UTC</createdTime>
+<generatorID>8CA84FE1-242B-C15D-70DE-D6D41C3E43CA</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<referedAttribute>F9C1B063-232A-2E48-288F-3452E1C9333C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stockage_ID" id="FABF0320-C93A-7CAE-66D7-2864E1C81000">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:16:57 UTC</createdTime>
+<generatorID>6361F439-9197-08BB-6139-EA66B49F685A</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<referedAttribute>B49E5570-63AA-5DD2-99E7-8FBE8845F4B9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ram_ID" id="0ECE2EA5-2162-ECE8-7ECF-E9F143657A50">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:17:13 UTC</createdTime>
+<generatorID>A1339EA5-5B43-A30C-8231-87746D3385A7</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<referedAttribute>23EAC4FB-7EA2-4905-4051-239F67AA786B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="processeur_ID" id="CFAA9894-8B37-066C-B155-645AFA72AC99">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:17:26 UTC</createdTime>
+<generatorID>A6421C4D-6CB7-0F39-1472-C104B96656A9</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<referedAttribute>3FEEDEE3-20EB-2A17-CEF9-22D26E681561</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F718E05B-2643-0C2D-5B52-4B26795035AC" name="Ordinateur PK">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:14:17 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>612BD1F5-C875-8588-69AB-2E465B106824</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

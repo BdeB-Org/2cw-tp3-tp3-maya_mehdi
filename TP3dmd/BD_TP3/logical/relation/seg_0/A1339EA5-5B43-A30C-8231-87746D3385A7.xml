@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RAM_Ordinateur" directorySegmentName="seg_0" id="A1339EA5-5B43-A30C-8231-87746D3385A7">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:17:13 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<sourcePk>B50AF5EF-381F-6C74-C6B3-0F7B07A3DD91</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B03E0620-EF76-08E1-3EE3-39E7E8A189D2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5C8BF26D-E05B-155B-579B-A14BDCE3FCD9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

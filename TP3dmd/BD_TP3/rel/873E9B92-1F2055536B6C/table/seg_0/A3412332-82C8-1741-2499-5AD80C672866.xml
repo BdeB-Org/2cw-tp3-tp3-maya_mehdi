@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3412332-82C8-1741-2499-5AD80C672866" name="Stockage">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>592237F5-10C7-6D9B-1804-0945D066DA79</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="stockage_ID" id="21A55E9E-C5C2-6B69-4121-E7206578095B">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>B49E5570-63AA-5DD2-99E7-8FBE8845F4B9</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stockage_Nom" id="E3D00018-9703-125A-470B-707D93661934">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>DE984F5C-38BB-FB68-87B7-BC5006883F39</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sotckage_Description" id="AF6F15C4-B273-455E-2E2A-63B0D741DC98">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>96D0E145-86F9-F8AB-7A91-80A15C2C253F</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stockage_Prix" id="722BF5C1-3833-F09A-86B7-3BAB4D218751">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>53165CD2-0DEB-85EB-A6D7-3921CC9FFBD8</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stockage_Type" id="B7E598F1-BAF4-D8D2-B0C9-4E2C1C18F554">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>48210073-10CF-0E72-8AB7-466436EBCFCE</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stockage_Vitesse" id="17C62B26-7A96-DF88-DBB0-8F1C9B80E932">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>7C797802-716E-BC7B-07BE-D534EBD9C02D</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2F0B6DF-D9D5-F0EA-6C1C-6E9B4F4FA129" name="Stockage_PK">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>ACCDB925-061B-CE88-F305-CC2BA7477E08</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21A55E9E-C5C2-6B69-4121-E7206578095B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

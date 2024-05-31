@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CarteGraphique_Ordinateur" directorySegmentName="seg_0" id="8CA84FE1-242B-C15D-70DE-D6D41C3E43CA">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:16:35 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<sourcePk>CDFE985F-4DDE-E463-A70A-179B53CC4A08</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DADF5E8F-3754-3F8E-09CF-99B8E2295598</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5C8BF26D-E05B-155B-579B-A14BDCE3FCD9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

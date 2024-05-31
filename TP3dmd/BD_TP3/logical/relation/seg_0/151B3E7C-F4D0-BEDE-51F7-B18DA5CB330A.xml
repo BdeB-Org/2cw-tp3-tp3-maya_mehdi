@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CarteMere_Ordinateur" directorySegmentName="seg_0" id="151B3E7C-F4D0-BEDE-51F7-B18DA5CB330A">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:15:41 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<sourcePk>A59C287C-9B93-E054-9C38-EEA11A57CBB4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>88D62218-19AB-1A9C-8800-B179E2FAF1CF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5C8BF26D-E05B-155B-579B-A14BDCE3FCD9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
