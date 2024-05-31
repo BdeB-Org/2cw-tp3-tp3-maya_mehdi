@@ -4,7 +4,12 @@ body {
     padding: 0;
     background-color: #f0f0f0;
 }
-
+.bodyInterieur{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -91,6 +96,10 @@ nav ul li a:hover {
 
 .carousel-button.prev {
     left: 10px;
+}
+.sectionComposantes{
+    display: flex;
+    flex-direction: column;
 }
 
 .carousel-button.next {
