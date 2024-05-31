@@ -6,6 +6,8 @@ const carteMereUrl = "cartemere";
 const cpuUrl = "processeur";
 const ramUrl = "ram";
 
+let totalCommande;
+
 document.addEventListener("DOMContentLoaded", async function () {
     const carteGraphiqueDiv = document.getElementById('conteneurCartesGraphiques');
     let url = baseUrl + carteGraphiqueUrl;
@@ -66,6 +68,9 @@ async function AcheterObjet(objet, element) {
     // À NOTER : NE FONCTIONNERA PAS DUE À LA CONNECTION ERRONÉE DE LA BASE DE DONNÉE.
     console.log("Objet achetée: ",objet.id);
     element.remove();
+    totalCommande = document.getElementById('totalCommande');
+    let currentTotal = parseInt(totalCommande.innerHTML);
+    totalCommande.innerHTML = currentTotal+objet.prix;
     try {
         const url = baseUrl + carteGraphiqueUrl + objet.id;
         const response = await fetch(url, {

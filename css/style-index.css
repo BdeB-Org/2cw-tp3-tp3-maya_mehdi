@@ -100,6 +100,7 @@ nav ul li a:hover {
 .sectionComposantes{
     display: flex;
     flex-direction: column;
+    margin: 20px;
 }
 
 .carousel-button.next {
