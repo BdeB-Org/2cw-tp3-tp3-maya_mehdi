@@ -98,5 +98,5 @@ function AcheterObjet(objet) {
 
 function AcheterObjet(objet) {
     console.log('Acheter:', objet);
-    // Add your logic for handling the purchase here
+
 }
