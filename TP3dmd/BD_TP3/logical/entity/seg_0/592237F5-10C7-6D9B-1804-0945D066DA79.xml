@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="592237F5-10C7-6D9B-1804-0945D066DA79" name="Stockage">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:11:32 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="stockage_ID" id="B49E5570-63AA-5DD2-99E7-8FBE8845F4B9">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:11:39 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stockage_Nom" id="DE984F5C-38BB-FB68-87B7-BC5006883F39">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:11:55 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sotckage_Description" id="96D0E145-86F9-F8AB-7A91-80A15C2C253F">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:12:14 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stockage_Prix" id="53165CD2-0DEB-85EB-A6D7-3921CC9FFBD8">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:12:29 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stockage_Type" id="48210073-10CF-0E72-8AB7-466436EBCFCE">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:12:41 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stockage_Vitesse" id="7C797802-716E-BC7B-07BE-D534EBD9C02D">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:13:08 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ACCDB925-061B-CE88-F305-CC2BA7477E08" name="Stockage PK">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:11:54 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B49E5570-63AA-5DD2-99E7-8FBE8845F4B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

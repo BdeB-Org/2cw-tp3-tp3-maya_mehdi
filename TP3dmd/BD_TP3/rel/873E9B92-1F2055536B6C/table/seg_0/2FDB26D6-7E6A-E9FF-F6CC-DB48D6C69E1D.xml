@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FDB26D6-7E6A-E9FF-F6CC-DB48D6C69E1D" name="CarteMere">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>88D62218-19AB-1A9C-8800-B179E2FAF1CF</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cartemere_ID" id="09A4F175-6C19-586D-6FA2-EC0169193C94">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>5B32B614-C9AC-D164-3FB2-6D36287CAD8A</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cartemere_Nom" id="40C89378-E6B3-81CC-2DFF-78885716FA12">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>5D3E443F-C21A-231A-5A5C-251DBB817A09</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cartemere_Description" id="902F9327-A889-B4BE-403A-5BC3782A3B0C">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>084D2742-D6C4-86A0-FBB4-0A407C464544</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cartemere_MaxRAM" id="54F37DF7-BE73-9165-2933-EEC85DC581E5">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>35291422-24EC-5138-A000-AD6C57E36668</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cartemere_Prix" id="0C853010-74C2-6E98-8F12-3AEBE6DB9021">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>2267EBFB-55FF-AA36-692C-282D44D31FFA</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08244EFA-D244-A42B-198A-C14BFE4D29FC" name="CarteMere_PK">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>A59C287C-9B93-E054-9C38-EEA11A57CBB4</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09A4F175-6C19-586D-6FA2-EC0169193C94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

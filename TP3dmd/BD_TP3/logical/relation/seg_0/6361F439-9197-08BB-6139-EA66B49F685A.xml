@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Stockage_Ordinateur" directorySegmentName="seg_0" id="6361F439-9197-08BB-6139-EA66B49F685A">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:16:57 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<sourcePk>ACCDB925-061B-CE88-F305-CC2BA7477E08</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>592237F5-10C7-6D9B-1804-0945D066DA79</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5C8BF26D-E05B-155B-579B-A14BDCE3FCD9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

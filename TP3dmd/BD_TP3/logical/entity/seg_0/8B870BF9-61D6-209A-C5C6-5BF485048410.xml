@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B870BF9-61D6-209A-C5C6-5BF485048410" name="Processeur">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 03:59:26 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="processeur_ID" id="3FEEDEE3-20EB-2A17-CEF9-22D26E681561">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 03:59:36 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="processeur_NombreCoeurs" id="F02D39AF-7013-41D0-BF64-96130416D255">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:00:06 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="processeur_NombreThreads" id="62C6636C-420E-A8D2-4C7F-667AAB393E87">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:00:29 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="processeur_Prix" id="E9734B40-AF12-9229-E242-9E19882B8775">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:02:23 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="processeur_Description" id="4C3B0C4A-2778-DC57-6D3A-6A2DC63ACC48">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:02:45 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="processeur_Nom" id="6590C293-3A1F-210A-57B8-5074C713505F">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:03:07 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B13A928-D5BA-C7BE-C3DD-890473D66198" name="CPU PK">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 03:59:45 UTC</createdTime>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<engineerTo>
+<item key="873E9B92-5C79-B609-77D0-1F2055536B6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3FEEDEE3-20EB-2A17-CEF9-22D26E681561</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

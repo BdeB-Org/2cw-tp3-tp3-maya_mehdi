@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E9E7C182-7CFA-DC9C-F0F5-CA1B6E0B0A10" containerWithKeyObject="65503C17-AE33-4283-00FC-DA92138A20CE" localFKIndex="998D2114-623E-5B92-AFBA-B3FC96218F96" name="Ordinateur_Processeur_FK">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>A6421C4D-6CB7-0F39-1472-C104B96656A9</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<referredTableLongName>Processeur</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DEBCC826-2068-7A90-A110-76AEA2FD41B8</referredTableID>
+<keyObject>1C350B5A-2B1E-24B3-E785-FB14083D1BFA</keyObject>
+<referredKeyID>1C350B5A-2B1E-24B3-E785-FB14083D1BFA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>processeur_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="870B2A71-F09C-A9E4-0F31-1D137DFCDB0A" name="CarteGraphique">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>DADF5E8F-3754-3F8E-09CF-99B8E2295598</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cartegraphique_ID" id="5E7F8508-8924-8744-F839-5EB02CD71464">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>F9C1B063-232A-2E48-288F-3452E1C9333C</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cartegraphique_Nom" id="6D218D45-B024-9C0F-A4D4-54F6884CA9B1">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>4201940B-2F70-7EC6-C96F-AA7672455613</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cartegraphique_Description" id="2F4B7FD6-7A3A-990E-681A-78C9B1D9A51A">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>A178315A-8681-73E1-D293-709066F5F721</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cartegraphique_Prix" id="220DF4FC-5506-5B89-D0F3-764BA940A11E">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>EE8EE4BF-0F3E-5924-AEC8-BABB3BCB2F03</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cartegraphique_VRAM" id="8C467108-050C-9773-9169-DBA778B787C5">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>E055F50C-EC21-CF96-81CC-F5DDE0B314D9</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B21D8A9-748D-B90C-E4B6-D773EBB3D8E4" name="CarteGraphique_PK">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>CDFE985F-4DDE-E463-A70A-179B53CC4A08</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E7F8508-8924-8744-F839-5EB02CD71464"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,203 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65503C17-AE33-4283-00FC-DA92138A20CE" name="Ordinateur">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>5C8BF26D-E05B-155B-579B-A14BDCE3FCD9</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ordinateur_ID" id="2B309CA2-7E03-A87A-D2D3-2038A5DA77E8">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>612BD1F5-C875-8588-69AB-2E465B106824</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ordinateur_Nom" id="0072FE55-9EA4-B192-E7AA-E5DD8EB3082B">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>DE21758B-2078-37CF-D661-9F12E14505B8</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ordinateur_Description" id="9C414BF7-B6B7-F8C9-3422-7049FEFABF92">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>8DEAC760-A177-E986-904F-6410BBEA3209</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ordinateur_Prix" id="46F98993-F15E-763A-58D0-A34192D55CC7">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>38C7CC41-9824-9C4F-B72F-97206628BFA6</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CarteMere_cartemere_ID" id="4353F17D-A0F7-58DE-2A62-14D28C27827A">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>D60B8D5A-B5AB-DBD0-8095-0EB1C6C2A96A</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E01EE02-E702-B058-F13D-5406B1FA0D7E" referredColumn="09A4F175-6C19-586D-6FA2-EC0169193C94"/>
+</associations>
+</Column>
+<Column name="CarteGraphique_cartegraphique_ID" id="FCF95D3D-459A-C565-8617-1AB573853FC0">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>74D96DE5-54A8-7987-F8A2-1C9123979DF9</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57C08B64-35B5-187A-7942-2B9D7632113A" referredColumn="5E7F8508-8924-8744-F839-5EB02CD71464"/>
+</associations>
+</Column>
+<Column name="Stockage_stockage_ID" id="2C61BB24-A535-7F27-26E3-BA74BC1E8B71">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>FABF0320-C93A-7CAE-66D7-2864E1C81000</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0AD817A-292A-BF9B-D732-ED8520E5DDA3" referredColumn="21A55E9E-C5C2-6B69-4121-E7206578095B"/>
+</associations>
+</Column>
+<Column name="RAM_ram_ID" id="FEEE2EE1-9D23-EFFD-F3CB-03F6D105E4AF">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>0ECE2EA5-2162-ECE8-7ECF-E9F143657A50</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FCF4C2A-562D-3D33-CF64-66C5AFFE8CD2" referredColumn="28808B3F-DEED-1C78-072F-E07867378366"/>
+</associations>
+</Column>
+<Column name="Processeur_processeur_ID" id="89DF3FC0-E97F-1A59-134F-B200C0FEEDA0">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>CFAA9894-8B37-066C-B155-645AFA72AC99</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9E7C182-7CFA-DC9C-F0F5-CA1B6E0B0A10" referredColumn="97C89282-0F36-E3F4-105C-D1885C5BC3AA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7F75E26-D960-FF8C-1239-26DB170A2C80" name="Ordinateur_PK">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>F718E05B-2643-0C2D-5B52-4B26795035AC</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B309CA2-7E03-A87A-D2D3-2038A5DA77E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE0A2539-07A8-C3DA-27B6-ACD1C0BCFA4C" name="Ordinateur_CarteGraphique_FK">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>8CA84FE1-242B-C15D-70DE-D6D41C3E43CA</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCF95D3D-459A-C565-8617-1AB573853FC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9145A80C-EC1D-2D1D-11C9-091EAD10B06A" name="Ordinateur_CarteMere_FK">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>151B3E7C-F4D0-BEDE-51F7-B18DA5CB330A</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4353F17D-A0F7-58DE-2A62-14D28C27827A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="998D2114-623E-5B92-AFBA-B3FC96218F96" name="Ordinateur_Processeur_FK">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>A6421C4D-6CB7-0F39-1472-C104B96656A9</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89DF3FC0-E97F-1A59-134F-B200C0FEEDA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E5127CD-380C-86FB-CD08-B151CE9FC1B9" name="Ordinateur_RAM_FK">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>A1339EA5-5B43-A30C-8231-87746D3385A7</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEEE2EE1-9D23-EFFD-F3CB-03F6D105E4AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F5EDEEB-54D1-5F1E-8093-8B0ACFADFB5C" name="Ordinateur_Stockage_FK">
+<createdBy>masma</createdBy>
+<createdTime>2024-05-19 04:18:49 UTC</createdTime>
+<generatorID>6361F439-9197-08BB-6139-EA66B49F685A</generatorID>
+<ownerDesignName>BD_TP3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C61BB24-A535-7F27-26E3-BA74BC1E8B71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
