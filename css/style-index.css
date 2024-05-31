@@ -132,3 +132,62 @@ nav ul li a:hover {
     align-items: center;
     text-align: center;
 }
+.OrdibodyInterieur {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.pcContainer {
+    width: calc(33.33% - (10% / 3));
+    margin: 0 5%;
+}
+
+.pcContainer:last-child {
+    margin-right: 0;
+}
+
+#PC-HautteGamme,
+#PC-MillieuxGamme,
+#PC-BasseGamme {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+#PC-HautteGamme {
+    margin: 10% 3%;
+}
+
+#PC-MillieuxGamme {
+    margin: 10% 3% 0;
+}
+
+#PC-BasseGamme {
+    margin: 10% 3% 0;
+    position: relative; 
+    left: -10%;
+    top: -10%; 
+}
+
+
+.OrdibodyInterieur button {
+    background-color: #15384e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px; 
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
