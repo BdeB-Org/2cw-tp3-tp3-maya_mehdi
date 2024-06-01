@@ -189,46 +189,9 @@ h3 {
     text-align: center;
     margin-bottom: 10px;
 }
-.pAPropos {
-    position: absolute;
-    justify-content: center;
-    top: 25%;
-    left: 29%;
-    font-family: sans-serif;
-    font-size: 25px;
-}
-.mehdiAvatar{
-    position: fixed;
-    bottom: 0;
-    padding-bottom: 3%;
-    left: 30%;
+.Avatar{
     width: 200px; 
     height: auto; 
-}
-.mayaAvatar{
-    position: fixed;
-    bottom: 0;
-    padding-bottom: 3%;
-    left:60%;
-    width: 200px; 
-    height: auto; 
-}
-.mehdiNom {
-    position: fixed;
-    font-weight: bold;
-    font-size: 25px;
-    bottom: 0;
-    left:31%;
-    padding-bottom: 15%;
-}
-
-.mayaNom {
-    position: fixed;
-    font-weight: bold;
-    font-size: 25px;
-    bottom: 0;
-    left:60.5%;
-    padding-bottom: 15%;
 }
 
 .proj{
